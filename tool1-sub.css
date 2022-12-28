@@ -1,0 +1,114 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CA77E6;
+    position: relative;
+  }
+
+.title{
+    height: 25vh;
+    font-size: 2vw;
+    text-align: center;
+    background-color: #821FA3;
+}
+
+.title1{
+    color: white;
+    margin: 0px;
+    position: relative;
+    top: 7vh;
+}
+
+.setting{
+    position: relative;
+}
+
+.input{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.number1{
+    background-color: white;
+    border: solid 1px;
+    width: 10vw;
+    height: 2vw;
+    font-size: 1.5vw;
+    font-family: Fangsong;
+}
+
+.number2{
+    background-color: white;
+    border: solid 1px;
+    width: 10vw;
+    height: 2vw;
+    font-size: 1.5vw;
+    font-family: Fangsong;
+}
+
+.enter{
+    background-color: white;
+    border: solid 1px;
+}
+
+.enter:hover{
+    color: gray;
+}
+
+.enter:active{
+    color: black;
+}
+
+.answer{
+    color: white;
+    text-align: center;
+    font-size: 4vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.back1{
+    width: 7vw;
+    height: 3vw;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: 3.2vw;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #821FA3;
+    position: fixed;
+    bottom: 3vw;
+    right: 5vw;
+    transition: 0.5s;
+	Text-decoration: none;
+}
+
+.back1:hover{
+    background-color: white;
+    color: #821FA3;
+}
+
+.back2{
+    width: 7vw;
+    height: 3vw;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: 3.2vw;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #821FA3;
+    position: fixed;
+    bottom: 3vw;
+    right: 13vw;
+    transition: 0.5s;
+	Text-decoration: none;
+}
+
+.back2:hover{
+    background-color: white;
+    color: #821FA3;
+}

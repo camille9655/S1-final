@@ -1,0 +1,82 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CA77E6;
+    position: relative;
+  }
+
+.title{
+    height: 30vh;
+    font-size: 3vw;
+    text-align: center;
+    background-color: #821FA3;
+}
+
+.title1{
+    color: white;
+    margin: 0px;
+    position: relative;
+    top: 7vh;
+}
+
+.setting{
+    width: 100vw;
+    position: relative;
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+}
+
+.click{
+    width: 10vw;
+    height: 10vh;
+    background-color: white;
+    color: #821FA3;
+    border-radius: 100px;
+    font-size: 1.75vw;
+    font-family: Fangsong;
+    font-weight: 700;
+    text-align: center;
+    line-height: 4.75vw;
+    transition: 0.3s;
+}
+
+.click:hover{
+    color: #CA77E6;
+}
+
+.click:active{
+    color: #821FA3;
+}
+
+.times{
+    color: white;
+    font-size: 4vw;
+    font-family: Fangsong;
+    display: flex;
+    justify-content: center;
+}
+
+.back{
+    width: 7vw;
+    height: 3vw;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: 3.2vw;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #821FA3;
+    position: fixed;
+    bottom: 3vw;
+    right: 5vw;
+    transition: 0.5s;
+	Text-decoration: none;
+}
+
+.back:hover{
+    background-color: white;
+    color: #821FA3;
+}

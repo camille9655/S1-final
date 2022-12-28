@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猜數字-三位數</title>
+    <link rel="stylesheet" href="tool3-3.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="tool3-3.js"></script>
+</head>
+<body>
+    <div class="title"><h1 class="title1">三位數</h1></div>
+    <br><br>
+    <div class="setting">
+    <details class="rule">
+        <summary class="ruleOut">規則</summary>
+        <div class="ruleIn">
+            輸入一個三位數，系統會顯示「數字正確，位置也正確」的有幾個數（幾A），以及「數字正確，位置不正確」的有幾個數（幾B）
+            <br><br>
+            例如：
+            <br>
+            答案為「123」時，輸入「132」，系統顯示「1A2B」，
+            <br>
+            因為數字1的位置正確，數字2、3的位置錯誤。
+            <br><br>
+            若改為輸入「456」則會顯示「0A0B」，
+            <br>
+            因為數字4、5、6都沒有在答案中出現。
+            <br><br>
+            *小提醒*
+            <br>
+            答案的三個數字不會重複
+        </div>
+    </details>
+    <div class="input">
+        <input type="number" placeholder="請輸入一個三位數" class="number">
+        <div class="enter">猜這個</div>
+        <div class="start">點我開始</div>
+    </div>
+    <div class="guess"></div>
+    </div>
+    <a href="index.html" class="back1">回首頁</a>
+    <a href="tool3.html" class="back2">回前頁</a>
+</body>
+</html>

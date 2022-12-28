@@ -1,0 +1,160 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CA77E6;
+    position: relative;
+  }
+
+.title{
+    height: 25vh;
+    font-size: 2vw;
+    text-align: center;
+    background-color: #821FA3;
+}
+
+.title1{
+    color: white;
+    margin: 0px;
+    position: relative;
+    top: 7vh;
+}
+
+.setting{
+    position: relative;
+}
+
+.rule{
+    width: 90vw;
+    position: absolute;
+    left: 5vw;
+    font-family: Fangsong;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.ruleOut{
+    transition: 0.3s;
+    width: 5vw;
+}
+
+.ruleOut:hover{
+    color: white;
+}
+
+.ruleOut:active{
+    color: black;
+}
+
+.input{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20vw;
+}
+
+.number{
+    background-color: white;
+    border: none;
+    border-radius: 1vw;
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    font-family: Fangsong;
+}
+
+.enter{
+    border-radius: 1vw;
+    color: #821FA3;
+    background-color: white;
+    width: 8vw;
+    height: 3vw;
+    text-align: center;
+    font-size: 2vw;
+    font-family: Fangsong;
+    font-weight: bold;
+    line-height: 3.2vw;
+    transition: 0.3s;
+}
+
+.enter:hover{
+    color: #CA77E6;
+}
+
+.enter:active{
+    color: #821FA3;
+}
+
+.start{
+    position: absolute;
+    bottom: 5vw;
+    font-family: Fangsong;
+    font-weight: bold;
+    font-size: 1.5vw;
+    transition: 0.3s;
+}
+
+.start:hover{
+    color: white;
+}
+
+.start:active{
+    color: black;
+}
+
+.guess{
+    width: 10vw;
+    position: relative;
+    top: 22vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Fangsong;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.back1{
+    width: 7vw;
+    height: 3vw;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: 3.2vw;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #821FA3;
+    position: fixed;
+    bottom: 3vw;
+    right: 5vw;
+    transition: 0.5s;
+	Text-decoration: none;
+}
+
+.back1:hover{
+    background-color: white;
+    color: #821FA3;
+}
+
+.back2{
+    width: 7vw;
+    height: 3vw;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: 3.2vw;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #821FA3;
+    position: fixed;
+    bottom: 3vw;
+    right: 13vw;
+    transition: 0.5s;
+	Text-decoration: none;
+}
+
+.back2:hover{
+    background-color: white;
+    color: #821FA3;
+}
